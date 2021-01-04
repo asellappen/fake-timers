@@ -1,0 +1,19 @@
+# ----------------------------------------------------------------------------
+#
+# Package             : fake-timers
+# Source Repo         : https://github.com/sinonjs/lolex.git
+# Travis Job Link     : https://travis-ci.com/github/asellappen/fake-timers/
+# Created travis.yml  : Yes
+# Maintainer          : Arumugam N S <asellappen@yahoo.com>/Priya Seth<sethp@us.ibm.com>
+#
+# Script License      : Apache License, Version 2 or later
+#
+# ----------------------------------------------------------------------------
+sudo: false
+language: node_js
+arch:
+  - amd64
+  - ppc64le
+node_js:
+  - '14'
+  - '15'
