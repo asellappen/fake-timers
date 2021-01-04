@@ -14,6 +14,15 @@ language: node_js
 arch:
   - amd64
   - ppc64le
+  
+dist: xenial
+services:
+  - xvfb
+before_install:
+  -  sudo apt-get install xauth xvfb
+  -  export DISPLAY=:1.0
+  -  sudo apt-get  install firefox
+  
 node_js:
   - '14'
   - '15'
